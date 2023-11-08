@@ -6,9 +6,9 @@
     <title>Project - Home</title>
     <link rel="stylesheet" type="text/css" href="./stylesheet/style.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-    <link rel="icon" type="image/icon" href="./" />
-    <link rel="apple-touch-icon" type="image/icon" href="" />
-    <link rel="shortcut-icon" type="image/icon" href="./" />
+    <link rel="icon" type="image/icon" href="./../img/logo.svg" />
+    <link rel="apple-touch-icon" type="image/icon" href="./../img/logo.svg" />
+    <link rel="shortcut-icon" type="image/icon" href="./../img/logo.svg" />
     <script src="./script/script.js"></script>
 </head>
 <body>
@@ -43,7 +43,7 @@
                     <div class="sm:justify-center sm:mb-10 sm:mx-auto sm:w-full sm:flex sm:flex-col">
                         <h1 class="sm:text-center lg:text-6xl font-bold lg:w-8/12 lg:text-left sm:mx-auto sm:text-4xl md:text-5xl sm:w-full sm:mb-5 lg:mx-0 md:text-4xl md:mb-10">Bring everyone together to build better products.</h1>
                         <p class="lg:w-7/12 sm:w-4/5 my-4 sm:my-3 mt-10 sm:text-base text-xl text-slate-400 lg:text-left sm:mx-auto lg:mx-0 sm:text-md sm:w-full sm:text-center md:mb-10 sm:mb-5 md:text-xl md:w-8/12">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
-                        <div class="hover:bg-orange-800 bg-orange-600 sm:w-3/5 sm:mx-auto sm:mt-3 sm:text-center lg:w-3/12 lg:mx-0 md:w-full transition-all px-5 mt-10 rounded-full bg-orange-500 cursor-pointer inline-block">
+                        <div class="hover:bg-orange-800 bg-orange-600 sm:w-3/5 sm:mx-auto sm:mt-3 sm:text-center lg:w-3/12 md:w-4/12 lg:mx-0 md:w-full transition-all px-5 mt-10 rounded-full bg-orange-500 cursor-pointer inline-block">
                             <button type="button" class="baseline p-3">
                                 <span class="text-white">Get Started</span>
                             </button>
@@ -94,9 +94,108 @@
                     </div>
                 </div>
             </section>
+            <section id="sec-iii" class="relative">
+                <div class="relative"> <!-- card content -->
+                    <h1 class="text-black-900 text-center font-bold text-4xl lg:text-6xl py-10 pb-16">What's different about Manage?</h1>
+                    <div class="mb-5 flex space-x-6 lg:space-y-0 space-y-20 flex-col items-center lg:justify-center lg:flex-row mt-6 mb-6"> <!-- cardwrapper -->
+                        <div class="relative rounded-xl lg:w-3/12 w-7/12 border-2 shadow-4" id="card-i"> <!-- card -->
+                            <img src="./../img/avatar-anisha.png" alt="" class="relative bottom-10 mx-auto" />
+                            <h1 class="text-2xl pb-2 font-bold text-center">Anisha Li</h1>
+                            <div class="py-2 px-5 text-center mb-6">
+                                <p class="lg:text-center"><q>Manage has supercharged our team's workflow. The ability to maintain visibility
+                                    on larger milestones at all times keeps everyone motivated.</q></p>
+                            </div>
+                        </div>
+                        <div class="relative rounded-xl lg:w-3/12 w-7/12 border-2 shadow-4" id="card-i"> <!-- card -->
+                            <img src="./../img/avatar-shanai.png" alt="" class="relative bottom-10 mx-auto" />
+                            <h1 class="text-2xl pb-2 font-bold text-center">Ali Bravo</h1>
+                            <div class="py-2 px-5 text-center mb-6">
+                                <p class="lg:text-center"><q>We have been able to cancel so many other subscriptions since using Manage. There is no
+                                    more cross-channel confusion and everyone is much more focused.</q></p>
+                            </div>
+                        </div>
+                        <div class="relative rounded-xl lg:w-3/12 w-7/12 border-2 shadow-4" id="card-i"> <!-- card -->
+                            <img src="./../img/avatar-richard.png" alt="" class="relative bottom-10 mx-auto" />
+                            <h1 class="text-2xl pb-2 font-bold text-center">Richard Watts</h1>
+                            <div class="py-2 px-5 text-center mb-6">
+                                <p class="lg:text-center"><q>Manage has supercharged our team's workflow. The ability to maintain visibility on
+                                    larger milestones at all times keeps everyone motivated.</q></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-14 w-full flex justify-center">
+                        <button type="button" role="button" class="bg-orange-500 py-2 px-10 rounded-full text-white" aria-label="" aria-labelledby="">
+                            <span>Get Started</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="iv">
+                <div class="lg:flex lg:items-center lg:flex-row py-12 px-8 bg-orange-600 flex flex-col flex-row flex justify-between items-center my-6">
+                    <div class="mb-20">
+                        <h1 class="font-bold text-4xl text-center lg:text-left mx-auto w-10/12 text-white">Simplify how your team works today.</h1>
+                    </div>
+                    <div class="relative">
+                        <button type="button" class="bg-white rounded-full p-3 px-6" role="button" aria-label="">
+                            <span aria-labelledby="">Get Started</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer>
-
+        <footer class="mt-10">
+            <div class="bg-black flex justify-center p-8 px-16 ">
+            <div class="flex lg:flex-row lg:items-center lg:justify-between lg:w-full flex-col justify-between">
+                <div class="relative mx-auto lg:mx-0"> <!-- first -->
+                    <img src="./../img/logo.svg" class="my-6" alt="" />
+                    <div class="relative flex space-x-4 mt-10" id="social">
+                        <div class="" id="">
+                            <img src="./../img/icon-facebook.svg" alt="" />
+                        </div>
+                        <div class="" id="">
+                            <img src="./../img/icon-youtube.svg" alt="" />
+                        </div>
+                        <div class="" id="">
+                            <img src="./../img/icon-twitter.svg" alt="" />
+                        </div>
+                        <div class="" id="">
+                            <img src="./../img/icon-pinterest.svg" alt="" />
+                        </div>
+                        <div class="" id="">
+                            <img src="./../img/icon-instagram.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-auto relative text-white my-16"> <!-- second -->
+                    <div class="flex justify-between space-x-20">
+                        <nav class="flex flex-col">
+                            <a href="/" hreflang="en" class="hover:text-orange-500 p-4">Home</a>
+                            <a href="/" hreflang="en" class="hover:text-orange-500 p-4">Pricing</a>
+                            <a href="/" hreflang="en" class="hover:text-orange-500 p-4">Products</a>
+                            <a href="/" hreflang="en" class="hover:text-orange-500 p-4">About Us</a>
+                        </nav>
+                        <nav class="flex flex-col">
+                            <a href="/" hreflang="en" class="hover:text-orange-500 p-4">Careers</a>
+                            <a href="/" hreflang="en" class="hover:text-orange-500 p-4">Community</a>
+                            <a href="/" hreflang="en" class="hover:text-orange-500 p-4">Privacy Policy</a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="">  <!-- third -->
+                    <div class="flex justify-between flex-col">
+                    <div class="flex items-center"> <!-- third - i -->
+                        <input type="search" class="p-3 rounded-full w-full" placeholder="Update in your inbox" />
+                        <button type="button" role="button" aria-label="" class="bg-orange-500 p-3 ml-2 rounded-full px-6 hover:bg-white transition-all">
+                            <span>Go</span>
+                        </button>
+                    </div>
+                    <div class="text-white mt-14 text-center"> <!-- third - ii -->
+                        <p>Copyright 2023 - All rights reserved</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
         </footer>
     </div>
     <script src="./"></script>
